@@ -49,16 +49,16 @@ je het project later goed kunt terugvinden.
 
 | ![Start course](img/start-course.png) | 
 |:-------------------------------------:| 
-|    *Let op je pad binnen htdocs!*     |
+|  *Let op je pad binnen de settings!*  |
 
 Druk nu op `Start`. Daarmee wordt het nieuwe project geopend en volgt een scherm
 waarin je een hoop commando's voorbij ziet komen omdat de course voor je
 geïnstalleerd wordt. Wanneer je onderstaande ziet, is hij klaar en kun je dat
 venster sluiten.
 
-| ![Start course](img/install-finished.png) | 
-|:-----------------------------------------:| 
-|   *Wacht tot installatie 'finished' is*   |
+| ![Install finished](img/install-finished.png) | 
+|:---------------------------------------------:| 
+|     *Wacht tot installatie 'finished' is*     |
 
 ## Starten met course
 
@@ -107,7 +107,7 @@ de vereiste opdrachten groen zijn.
 |    *Zichtbare voortgang binnen de course*    |
 
 Vanaf de opdrachten in het mapje `DOM` heb je ook je browser nodig. Aangezien je het
-project in je `htdocs` map hebt gezet kun je via http://prg03-edu.test direct
+project in je Herd map hebt gezet kun je via http://prg03-edu.test direct
 bij de uitwerkingen van dit project. Je kunt alle bestanden die je niet herkent (op
 onderstaande afbeelding rood omcirkelt) negeren. Dit zijn bestanden die op de achtergrond
 nodig zijn om de course en bijbehorende tests te laten werken, maar deze zijn niet
