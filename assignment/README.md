@@ -25,8 +25,8 @@ ___
 ___
 ## Opdracht 2 (zonder AJAX)
 
-- Bepaal welke HTML/CSS-methode je voor je opdracht gaat gebruiken (zelf schrijven, Bulma of iets anders). Je kunt de
-  kennis van Front-end Development en de Bulma Hackaton hiervoor gebruiken.
+- Bepaal welke HTML/CSS-methode je voor je opdracht gaat gebruiken (zelf schrijven, Bulma, Tailwind). Je kunt de
+  kennis van Front-end Development en de CSS-Hackathon hiervoor gebruiken.
 - Begin met het opmaken van de layout zoals jij wilt dat je werk eruit komt te zien. Zorg ervoor dat er minimaal 10 items
   zichtbaar zijn met informatie over jouw onderwerp.
 
