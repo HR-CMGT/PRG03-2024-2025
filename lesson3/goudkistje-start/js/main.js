@@ -6,16 +6,14 @@ const imageList = ['ballonnen', 'cars', 'planes', 'goudkistje'];
 /**
  * Initialize after the DOM is ready
  */
-function init()
-{
+function init() {
 
 }
 
 /**
  * Generate the playing field dynamically with all the available images
  */
-function createPlayField()
-{
+function createPlayField() {
 
 }
 
@@ -24,8 +22,7 @@ function createPlayField()
  *
  * @param e
  */
-function playingFieldClickHandler(e)
-{
+function playingFieldClickHandler(e) {
 
 }
 
@@ -34,8 +31,7 @@ function playingFieldClickHandler(e)
  *
  * @param e
  */
-function formSubmitHandler(e)
-{
+function formSubmitHandler(e) {
 
 }
 
@@ -44,8 +40,7 @@ function formSubmitHandler(e)
  *
  * @param text
  */
-function writeFeedbackMessage(text)
-{
+function writeFeedbackMessage(text) {
 
 }
 
@@ -54,7 +49,6 @@ function writeFeedbackMessage(text)
  * @param array
  * @returns {*}
  */
-function shuffleArray(array)
-{
+function shuffleArray(array) {
   return array.sort(() => (Math.random() - 0.5));
 }

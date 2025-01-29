@@ -11,15 +11,14 @@ h1 {
     font-size: 2.4em;
 }
 
-div, section {
+* {
     box-sizing: border-box;
 }
 
-#main {
-    margin: 0 auto;
+main {
+    margin: 30px auto 0;
     width: 60vw;
     max-width: 550px;
-    margin-top: 30px;
 }
 
 #todolist {
@@ -41,11 +40,41 @@ li {
     cursor: pointer;
 }
 
+.new-todo {
+    animation: move-in forwards 0.5s ease-out;
+}
+
+.remove-todo {
+    animation: move-out forwards 0.5s ease-in;
+}
+
+@keyframes move-in {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes move-out {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+}
+
 li.done {
     list-style-type: "✔️";
     text-decoration: line-through;
-    opacity:0.4;
-    cursor:not-allowed;
+    opacity: 0.4;
+    cursor: not-allowed;
 }
 
 input[type=text] {

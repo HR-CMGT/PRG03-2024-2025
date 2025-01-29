@@ -1,12 +1,10 @@
 window.addEventListener('load', init);
 
-function init()
-{
+function init() {
   document.getElementById('button').addEventListener('click', readBatteryLevel);
 }
 
-function readBatteryLevel()
-{
+function readBatteryLevel() {
   const target = document.getElementById('target');
 
   if (typeof navigator.bluetooth === 'undefined') {

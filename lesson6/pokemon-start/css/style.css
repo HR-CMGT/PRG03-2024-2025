@@ -7,6 +7,10 @@ body {
     background-color: lightblue;
 }
 
+body.dialog-open {
+    overflow: hidden;
+}
+
 h1.main-title {
     text-align: center;
     font-family: 'Press Start 2P', sans-serif;
@@ -36,10 +40,6 @@ h2 span {
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     justify-items: center;
-}
-
-#pokemon-gallery.dialog-open {
-    filter: blur(10px);
 }
 
 .pokemon-card {
@@ -102,6 +102,7 @@ h2 span {
 
 .modal::backdrop {
     background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 .modal-close {

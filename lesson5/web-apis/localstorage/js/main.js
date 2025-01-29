@@ -3,8 +3,7 @@ let form = null;
 let nameField = null;
 let ageField = null;
 
-function init()
-{
+function init() {
   if (typeof window.localStorage === 'undefined') {
     console.error('Local storage is not available in your browser');
     return;
@@ -18,16 +17,14 @@ function init()
   form.addEventListener('submit', submitHandler);
 }
 
-function fillFieldsFromLocalStorage()
-{
+function fillFieldsFromLocalStorage() {
   if (localStorage.getItem('name') !== null) {
     nameField.value = localStorage.getItem('name');
     ageField.value = localStorage.getItem('age');
   }
 }
 
-function submitHandler(e)
-{
+function submitHandler(e) {
   e.preventDefault();
   localStorage.setItem('name', nameField.value);
   localStorage.setItem('age', ageField.value);

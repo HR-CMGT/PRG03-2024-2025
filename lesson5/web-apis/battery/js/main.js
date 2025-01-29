@@ -2,15 +2,13 @@ window.addEventListener('load', init);
 let targetStatus = null;
 let targetRemaining = null;
 
-function init()
-{
+function init() {
   targetStatus = document.getElementById('target-status');
   targetRemaining = document.getElementById('target-remaining');
   showBatteryStatus();
 }
 
-function showBatteryStatus()
-{
+function showBatteryStatus() {
   if (typeof navigator.getBattery === 'undefined') {
     targetStatus.innerText = 'Bluetooth API not supported.';
     return;
@@ -22,8 +20,7 @@ function showBatteryStatus()
   });
 }
 
-function changeStatusText(battery)
-{
+function changeStatusText(battery) {
   targetStatus.innerText = ((battery.level * 100) + '%');
   let remainingTime = 'Je apparaat zal uitgaan over: ';
 

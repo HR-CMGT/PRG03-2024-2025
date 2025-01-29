@@ -2,8 +2,7 @@ window.addEventListener('load', init);
 let target = null;
 let button = null;
 
-function init()
-{
+function init() {
   target = document.getElementById('target');
   button = document.getElementById('button');
 
@@ -15,14 +14,12 @@ function init()
   button.addEventListener('click', buttonClickHandler);
 }
 
-function buttonClickHandler()
-{
+function buttonClickHandler() {
   navigator.geolocation.getCurrentPosition(showCurrentLocation);
   navigator.geolocation.watchPosition(showCurrentLocation);
 }
 
-function showCurrentLocation(location)
-{
+function showCurrentLocation(location) {
   button.remove();
   target.innerHTML = (location.coords.latitude + ', ' + location.coords.longitude);
 }

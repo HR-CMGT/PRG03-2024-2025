@@ -1,20 +1,17 @@
 window.addEventListener('load', init);
 
-function init()
-{
+function init() {
   document.getElementById('button').addEventListener('click', getStream);
 }
 
-function getUserMedia(options, successCallback, failureCallback)
-{
+function getUserMedia(options, successCallback, failureCallback) {
   const api = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
   if (api) {
     return api.bind(navigator)(options, successCallback, failureCallback);
   }
 }
 
-function getStream()
-{
+function getStream() {
   if (!navigator.getUserMedia && !navigator.webkitGetUserMedia && !navigator.mozGetUserMedia && !navigator.msGetUserMedia) {
     alert('User Media API not supported.');
     return;
