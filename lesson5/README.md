@@ -2,6 +2,7 @@
 
 - Maak de opdrachten uit de map "AJAX" in de JetBrains EDU-course in PhpStorm
   als voorbereiding op de volgende les.
+- Bekijk als voorbereiding voor les 5 de kennisclip over AJAX op Brightspace.
 
 > Let op: Vergeet niet (zie deadline FeedbackFruits) je self assessment af te ronden in FeedbackFruits als voorwaardelijkheid van deze module!**
 

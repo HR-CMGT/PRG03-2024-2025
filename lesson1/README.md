@@ -5,6 +5,9 @@
 - Volg de [installatie-instructies](../edu-course) op voor het werkend krijgen van de JetBrains EDU-course in PhpStorm.
   Maak hierin de opdrachten uit de map "Basics" als voorbereiding op de volgende les. **Let op**: Lever je bewijs 
   tijdig in op Brightspace als voorwaardelijkheid van deze cursus!
+- Bekijk als voorbereiding voor les 2 de kennisclip over Javascript op Brightspace. 
 - Maak **Opdracht 1** van de [Hoofdopdracht](../assignment).
+- Als je nog moeite had met de onderwerpen van vandaag kun je ook de kennisclips over het Client/server-model &
+  Webservices nogmaals bekijken
 - Bij behoefte aan extra oefeningen met HTML/CSS raden we aan terug te kijken naar de materialen van de cursus
-  Front-end Development.
+  Front-end Development en de CSS-Hackathon.

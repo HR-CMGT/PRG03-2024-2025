@@ -5,4 +5,5 @@
 - Maak de opdrachten uit de mappen "Functions & Objects" & "DOM" in de JetBrains
   EDU-course in PhpStorm als voorbereiding op de volgende les. **Let op**: Lever je
   bewijs voor de volgende les in op Brightspace als voorwaardelijkheid van deze module!
+- Bekijk als voorbereiding voor les 3 de kennisclip over DOM & Objecten op Brightspace.
 - Maak **Opdracht 2** uit het assignment uit de [Hoofdopdracht](../assignment)
