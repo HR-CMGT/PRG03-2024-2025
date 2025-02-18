@@ -9,6 +9,18 @@ helemaal snapt.
 > voorwaardelijk om mee te mogen doen aan de praktijkopdracht. Lees de eisen
 > hiervoor goed na in hoofdstuk 3.2 van de cursushandleiding.
 
+## Inhoudsopgave
+
+- [Installatie](#installatie)
+    - [NodeJS](#nodejs)
+    - [JetBrains Academy Plugin](#jetbrains-academy-plugin)
+- [Starten met course](#starten-met-course)
+    - [Werken met de browser](#werken-met-de-browser)
+- [Troubleshooting](#troubleshooting)
+    - [Node/NPM bestaat niet](#nodenpm-bestaat-niet)
+    - [Project opent raar zonder normaal scherm](#project-opent-raar-zonder-normaal-scherm)
+    - [Test kunnen niet gecheckt worden](#test-kunnen-niet-gecheckt-worden)
+
 ## Installatie
 
 ### NodeJS
@@ -23,12 +35,15 @@ de laatste versie in je Herd zodat je kunt werken met Node.
 |:----------------------------------------:| 
 |           *Herd Node settings*           |
 
-### Installatie plugin
+### JetBrains Academy Plugin
 
 Om de EDU-course te kunnen starten heb je de "JetBrains Academy" plugin nodig.
 Deze kun je installeren door in PhpStorm naar je `Settings -> Plugins` te
 gaan en daar te zoeken op "JetBrains Academy" in de Marketplace. Na installatie
 moet je PhpStorm opnieuw opstarten.
+
+> ⚠️ Er wordt na installatie gevraagd akkoord te gaan met de voorwaarden. Keur dit
+> goed aangezien de plugin anders niet zal werken!
 
 | ![JetBrains Academy plugin](img/jetbrans-academy-plugin.png) | 
 |:------------------------------------------------------------:| 
@@ -106,6 +121,8 @@ de vereiste opdrachten groen zijn.
 |:--------------------------------------------:| 
 |    *Zichtbare voortgang binnen de course*    |
 
+### Werken met de browser
+
 Vanaf de opdrachten in het mapje `DOM` heb je ook je browser nodig. Aangezien je het
 project in je Herd map hebt gezet kun je via http://prg03-edu.test direct
 bij de uitwerkingen van dit project. Je kunt alle bestanden die je niet herkent (op
@@ -130,3 +147,46 @@ wat je kan helpen tijdens het maken van de opdrachten.
 > Ben niet bang om fouten te maken. Het hele doel van deze opdrachten is dat je
 > voorbereid bent op de les, maar ook dat je in je eigen tijd nog kunt oefenen als
 > je bepaalde concepten nog moeilijk vindt. Vooral veel plezier gewenst! 🎉
+
+## Troubleshooting
+
+Mocht je tegen issues aanlopen tijdens de installatie staan hieronder de meest
+voorkomende problemen met bijbehorende oplossingen.
+
+### Node/NPM bestaat niet
+
+Mocht Node/NPM niet goed geïnstalleerd zijn op je machine kun je het installeren
+vanuit de NodeJS website. Kies hiervoor de installer (dus geen ZIP): https://nodejs.org/en/download
+
+### Project opent raar zonder normaal scherm
+
+Als je onderstaand scherm ziet, betekent dit dat je de voorwaarden van de plugin
+niet hebt goedgekeurd toen hierom werd gevraagd.
+
+| ![Issue project view](img/issue-project-view.png) | 
+|:-------------------------------------------------:| 
+|       *Cursus opent als project IPV cursus*       |
+
+Ga naar je settings en zet het vinkje alsnog aan zodat je de plugin kunt gebruiken.
+
+| ![Issue voorwaarden](img/issue-agreement-check.png) | 
+|:---------------------------------------------------:| 
+|          *Keur de voorwaarden alsnog goed*          |
+
+### Test kunnen niet gecheckt worden
+
+Als je onderstaande ziet, kun je wel code schrijven, maar geen checks uitvoeren. Daarmee
+kun je de opdrachten dus niet uitvoeren.
+
+| ![Issue test check](img/issue-tests.png) | 
+|:----------------------------------------:| 
+|   *Tests kunnen niet gecheckt worden*    |
+
+Om dit op te lossen open je de terminal in je phpStorm van het cursusproject, en voer
+je het volgende commando uit:
+
+```bash
+npm install jest@23.6.0
+```
+
+Happy coding! 🎉
